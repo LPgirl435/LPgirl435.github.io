@@ -1,0 +1,64 @@
+:root {
+  --offWhite: #F8FBEA;
+  --green: #B8D93F;
+  --purple: #4E2EDC;
+  --orange: #FD6717;
+  --darkPurple: #130A38;
+  --mint: #80ffcc;
+  --mint2: #80ffdf;
+  --lightTeal: #009999;
+  --lighterTeal: #00b3b3;
+  --rose: #ff8080;
+  --seafoamGreen: #80ffaa;
+  --skyBlue: #00bfff;
+  --cream: #ffffe6;
+  --feather: #77C9D4;
+  --marine: #57BC90;
+  --forest: #015249;
+  --sleekGray: #A5A5AF;
+}
+
+header {
+  text-align: center;
+  background-color: var(--forest);
+  color: var(--cream);
+  padding: 20px;
+  border: 5px double var(--marine);
+  margin: -8px;
+  font-size: 28px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+footer {
+  text-align: center;
+  background-color: var(--forest);
+  color: var(--cream);
+  padding: 20px;
+  border: 5px double var(--marine);
+  margin: -8px;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h3 {
+  color: var(--forest);
+  background-color: var(--sleekGray);
+  border-bottom: 6px double var(--mint);
+  border-left: 6px double var(--mint);
+  padding-left: 7px;
+  padding-top: 9px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+  background-color: var(--offWhite);
+  font-family: calibri, sans-serif;
+}
+
+p {
+  line-height: 1.4;
+}
+
+ul {
+  line-height: 1.4;
+}
