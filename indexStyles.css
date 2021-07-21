@@ -9,6 +9,7 @@
   --lightTeal: #009999;
   --lighterTeal: #00b3b3;
   --rose: #ff8080;
+  --rose2: #ffdede;
   --seafoamGreen: #80ffaa;
   --skyBlue: #00bfff;
   --cream: #ffffe6;
@@ -20,7 +21,7 @@
 
 header {
   text-align: center;
-  background-color: var(--forest);
+  background-color: var(--darkPurple);
   color: var(--cream);
   padding: 20px;
   border: 5px double var(--marine);
@@ -31,13 +32,14 @@ header {
 
 footer {
   text-align: center;
-  background-color: var(--forest);
+  background-color: var(--darkPurple);
   color: var(--cream);
   padding: 20px;
   border: 5px double var(--marine);
   margin: -8px;
   font-size: 20px;
   font-family: 'Josefin Sans', sans-serif;
+
 }
 
 h3 {
@@ -51,14 +53,35 @@ h3 {
 }
 
 body {
-  background-color: var(--offWhite);
+  background-color: var(--rose2);
   font-family: calibri, sans-serif;
+  color: var(--forest);
 }
 
 p {
   line-height: 1.4;
+  margin-left: 20px;
 }
 
 ul {
   line-height: 1.4;
+  margin-left: 10px;
 }
+
+p + ul {
+  margin-top: -15px;
+}
+
+form {
+  border: 3px double var(--mint);
+  background-color: var(--sleekGray);
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* a:link {
+  color: var(--mint2);
+}
+a:visited {
+  color: var(--sleekGray);
+} */
